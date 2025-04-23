@@ -8,6 +8,10 @@ h2 {
   color: rebeccapurple;
 }
 
+.course-title {
+  margin: 50px;
+}
+
 
 /* nav bar */
 nav {
@@ -50,17 +54,17 @@ nav li {
 
 /* topics cards */
 .card-deck {
-  display:flex;
+  display: flex;
   flex-wrap: wrap;
   justify-content:space-between;
 }
 
 .topics-section .card {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   flex-grow: 1;
-  padding: 10px;
-  margin: 3px;
-  text-align: center;
+  /* padding: 10px; */
+  margin: 20px;
+  /* text-align: center; */
 }
 
 .topics-section img {

@@ -61,6 +61,7 @@ main {
 .topics-section .card {
   border: 1px solid black;
   flex-grow: 1;
+  text-align: center;
 }
 
 .topics-section img {
@@ -70,4 +71,46 @@ main {
 /* other */
 footer {
   font-size: smaller;
+}
+
+
+@media (max-width: 768px){
+
+  nav ul {
+    justify-content: space-around;
+  }
+
+  nav li {  
+    text-align: center;
+    padding-left: .5rem;
+    padding-right: .5rem;
+  }
+
+  .card-box {
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .card {
+    max-width: 105px;
+    height: auto;
+  }
+
+  .card-react img {
+    padding-top: 20px;
+  }
+
+  .card-react h3 {
+    margin-top: 37px;
+  }
+
+  .card-firebase {
+    max-width: auto;
+    height: auto;
+  }
+
+  .topics-section img {
+    max-width: 70px;
+    height: auto;
+  }
 }
